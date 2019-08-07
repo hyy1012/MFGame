@@ -13,7 +13,7 @@ public class Btn extends JButton {
 	private static final int HEIGHT = 60; // 窗口的宽
 	protected World world;
 	URLClassLoader urlLoader = (URLClassLoader) this.getClass().getClassLoader();
-	URL filebj = urlLoader.findResource("bj.png"); // 导入图片文件
+	URL filebj = urlLoader.findResource("./mf/bj.png"); // 导入图片文件
 	
 	public Btn() {}
 	public Btn(int x, int y, String tname) {
